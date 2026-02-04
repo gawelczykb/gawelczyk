@@ -1,11 +1,8 @@
 a:link, a:visited {
 			color: aqua;
 			text-decoration: none;
-			background: white;
-			border: 2px dashed black;
-			border-radius: 2px;
-			background-clip: content-box; 
-			padding: 80px;
+			background: blue; 
+			padding: 50px;
 			width: 50px;
 			}
 		a:active {
@@ -20,10 +17,7 @@ a:link, a:visited {
 		a:hover {
 			color: aqua;
 			text-decoration: none;
-			background: white;
-			border: 2px dashed black;
-			border-radius: 2px;
-			background-clip: content-box; 
-			padding: 80px;
+			background: blue; 
+			padding: 50px;
 			width: 50px;
 			}

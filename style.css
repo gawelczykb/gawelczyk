@@ -2,22 +2,18 @@ a:link, a:visited {
 			color: aqua;
 			text-decoration: none;
 			background: blue; 
-			padding: 50px;
-			width: 50px;
+			padding: 15px;
 			}
 		a:active {
-			color: white;
+			color: red;
 			text-decoration: none;
-			background: red;
-			border: 1px dashed white;
-			border-radius: 5px;
+			background: white;
 			background-clip: content-box; 
-			padding: 80px;
+			padding: 15px;
 			}
 		a:hover {
-			color: aqua;
+			color: white;
 			text-decoration: none;
-			background: blue; 
-			padding: 50px;
-			width: 50px;
+			background: red; 
+			padding: 15px;
 			}

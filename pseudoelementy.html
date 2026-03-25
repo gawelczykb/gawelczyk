@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+<head> 
+	<title> PSEUDOELEMENTY </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		#element1::first-line {
+		background-color: yellow;
+		text-decoration: underline;
+		font-family: ravie;
+		}
+		
+		#element2::first-letter {
+		background-color: aqua;
+		color: pink;
+		font-size: 150pt;
+		border: 2px solid blue;
+		font-family: ariel;
+		}
+		
+		#element {
+		border: 1px solid red;
+		padding: 10px;
+		}
+		
+		#element::before {
+		content: '^_^';
+		background-color: lightgreen;
+		color: white;
+		border-radius: 50%;
+		border: 1px solid blue;
+		font-size: 100%;
+		}
+		
+		#element::after {
+		content: 'DAMY RADE TO ZROBIĆ';
+		background-color: green;
+		border: 1px solid blue;
+		}
+		
+		.jeden::marker {
+		color: red;
+		}
+		
+		*::selection {
+		background-color: darkred;
+		color: red;
+		}
+		
+</style></head>
+<body bgcolor="lightgray">
+	<div style="float:left; background-color:white; width:20%; height:1500px; ">
+		<hr />
+		<h4> <center> MENU PORUSZANIA </h4> </center>
+		<hr />
+		<h3> <center> STREFA OGÓLNA </h3> </center>
+		<center> &#11015; &nbsp;&nbsp;&nbsp; &#11015; &nbsp;&nbsp;&nbsp; &#11015; </center>
+			<a href="index.html"> <center> STRONA GŁÓWNA </center> </a>
+			<a href="kolory.html"> <center> KOLORY </center> </a>
+			<a href="nauczyciele.html"> <center> NAUCZYCIELE </center> </a>
+			<a href="zdjecia.html"> <center> ZDJĘCIA </center> </a>
+			<a href="tabele.html"> <center> TABELA </center> </a>
+			<a href="gawelczyk_tabela.html"> <center> TABELA NA OCENE </center> </a>
+			<a href="listy.html"> <center> LISTY </center> </a>
+			<a href="gawelczyk_lista.html"> <center> LISTY NA OCENE </center> </a>
+			<a href="formularz.html"> <center> FORMULARZE </center> </a>
+			<a href="mapy_odsyłaczy.html"> <center> MAPY ODSYŁACZY </center> </a>
+		<hr />
+		<h3> <center> STREFA JĘZYKA "CSS" </h3> </center>
+		<center> &#11015; &nbsp;&nbsp;&nbsp; &#11015; &nbsp;&nbsp;&nbsp; &#11015; </center>
+		<a href="wlasciwosci_css.html"> <center> WŁAŚCIWOŚCI CSS </center> </a>
+		<a href="tabela_css.html"> <center> WŁAŚCIWOŚCI CSS - TABELE </center> </a>
+		<a href="selektory_elementow"> <center> WŁAŚCIWOŚCI CSS - SELEKTORY ELEMENTÓW </center> </a>
+		<a href="selektory_atrybutow"> <center> WŁAŚCIWOŚCI CSS - SELEKTORY ATRYBUTÓW </center> </a>
+		<a href="gawelczyk_css.html"> <center> ZADANIE - IDENTYFIKATORY </center> </a>
+		<hr />
+		<h3> <center> STREFA MULTIMEDIALNA </h3> </center>
+		<center> &#11015; &nbsp;&nbsp;&nbsp; &#11015; &nbsp;&nbsp;&nbsp; &#11015; </center>
+			<a href="audio_video.html"> <center> AUDIO & VIDEO </center> </a>
+		<hr />
+		<h3> <center> STREFA DOKUMENTÓW </h3> </center>
+		<center> &#11015; &nbsp;&nbsp;&nbsp; &#11015; &nbsp;&nbsp;&nbsp; &#11015; </center>
+			<a href="doc/lista.docx"> <center> WORD - LISTA GRUPY </center> </a>
+			<a href="doc/lista.xlsx"> <center> EXCEL - LISTA GRUPY </center> </a>
+		<hr />
+		<h3> <center> STREFA LINKÓW </h3> </center>
+		<center> &#11015; &nbsp;&nbsp;&nbsp; &#11015; &nbsp;&nbsp;&nbsp; &#11015; </center>
+		<a href="https://www.google.com" target="new">
+			<img src="foty/google_logo.png" width="100px" /></a>
+		<a href="https://www.tsi-pai.cba.pl" target="new">
+			<img src="foty/informatyk_logo.png" width="100px" /></a>
+		<hr />
+	</div>
+	<div style="float:right; width:70%;">
+			<p id="element1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<p id="element2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<p id="element2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<div>
+			<h2 id="element"> ZDAĆ DO TRZECIEJ KLASY </h2>
+			<h3 id="element"> ZDAĆ MATURE </h3>
+			<h3 id="element"> ZDAĆ EGZAMIN ZAWODOWY </h3>
+			</div>
+			<hr />
+				<ul type="circle">
+					<li class="jeden">A zresztą i tak nas nie słyszą</li>
+					<li class="jeden">Z jadalni idzie sie tu prawie dziesięć minut przez te wszystkie korytarze</li>
+					<li class="jeden">- Co to za dziwny odgłos?! - Spytała nagle Łucja</li>
+				</ul>
+			
+	</div>
+		<div style="background-color:grey; clear:both;"><center>&copy; B.G. OCTOBER 2025</center>
+	</div>
+	</body>
+	</html>
+

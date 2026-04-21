@@ -5,7 +5,7 @@
 	<title> PRZYKŁADOWA WITRYNA SKLEPU </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css">
-
+	
 		* {
 		box-sizing: border-box;
 		}
@@ -62,6 +62,50 @@
 		padding: 10px;
 		}
 		
+		#element1::first-line {
+		background-color: yellow;
+		text-decoration: underline;
+		font-family: ravie;
+		}
+		
+		#element2::first-letter {
+		background-color: aqua;
+		color: pink;
+		font-size: 150pt;
+		border: 2px solid blue;
+		font-family: ariel;
+		}
+		
+		#element {
+		border: 1px solid red;
+		padding: 10px;
+		}
+		
+		#element::before {
+		content: '^_^';
+		background-color: lightgreen;
+		color: white;
+		border-radius: 50%;
+		border: 1px solid blue;
+		font-size: 100%;
+		}
+		
+		#element::after {
+		content: 'DAMY RADE TO ZROBIĆ';
+		background-color: green;
+		border: 1px solid blue;
+		}
+		
+		.jeden::marker {
+		color: red;
+		}
+		
+		*::selection {
+		background-color: darkred;
+		color: red;
+		}
+	
+		
 </style></head>
 <body bgcolor="grey">
 			<header>
@@ -76,11 +120,29 @@
 			</header>
 		<main>
 			<article>
-				<p> &nbsp; <img src="foty/ax.jpg" width="65%" />  </p>
-				<h4> &nbsp; Aksolotl meksykański - to wyjątkowy płaz który występuje naturalnie w jeziorach meksykańskich. 
-				Charakteryzuje się szeroką głową, małymi, czarnymi oczami oraz nieprzeciętną zdolność regeneracyjną, co oznacza
-				że może odrastać i regenerować utracone kończyny oraz skrzela. Długość ciała dorosłych osobników wynosi od 23 do 40 cm, a ich
-				kolorystyka obejmuje różne odcienie, w tym niebieski, brązowy i szary. </h4>
+			 <p id="element1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<p id="element2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<p id="element2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<hr />
+			<div>
+			<h2 id="element"> ZDAĆ DO TRZECIEJ KLASY </h2>
+			<h3 id="element"> ZDAĆ MATURE </h3>
+			<h3 id="element"> ZDAĆ EGZAMIN ZAWODOWY </h3>
+			</div>
+			<hr />
+				<ul type="circle">
+					<li class="jeden">A zresztą i tak nas nie słyszą</li>
+					<li class="jeden">Z jadalni idzie sie tu prawie dziesięć minut przez te wszystkie korytarze</li>
+					<li class="jeden">- Co to za dziwny odgłos?! - Spytała nagle Łucja</li>
+				</ul>
 			</article>
 		</main>
 		<aside>

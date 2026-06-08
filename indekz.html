@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+<head> 
+	<title>WŁAŚCIWOŚCI CSS - Z-INDEX </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	
+	div {
+	margin-top: 150px;
+	margin-left: 480px;
+	}
+	
+	.div1 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: red;
+	border: 2px solid black;
+	z-index: 0;
+	}
+	
+	.div2 {
+	position: absolute;
+	left: 60px;
+	top: 60px;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border: 2px solid black;
+	z-index: 1;
+	}
+	
+	.div3 {
+	position: absolute;
+	left: 120px;
+	top: 120px;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border: 2px solid black;
+	z-index: 2;
+	}
+	
+	.div4 {
+	position: absolute;
+	left: 180px;
+	top: 60px;
+	width: 100px;
+	height: 100px;
+	background-color: fuchsia;
+	border: 2px solid black;
+	z-index: 3;
+	}
+	
+	.div5 {
+	position: absolute;
+	left: 260px;
+	top: 120px;
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border: 2px solid black;
+	z-index: 4;
+	}
+	
+	.div6 {
+	position: absolute;
+	left: 300px;
+	top: 60px;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	border: 2px solid black;
+	z-index: 5;
+	}
+	
+	.div7 {
+	position: absolute;
+	left: 395px;
+	top: 120px;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	border: 2px solid black;
+	z-index: 6;
+	}
+	
+	.div8 {
+	position: absolute;
+	left: 420px;
+	top: 60px;
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 2px solid black;
+	z-index: 7;
+	}
+	
+	.div9 {
+	position: absolute;
+	left: 480px;
+	top: 10px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: red;
+	border: 2px solid black;
+	z-index: 8;
+	}
+	
+	img {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	border-radius: 50%;
+	}
+	
+	button {
+	width: 500px;
+	height: 100px;
+	position: relative;
+	top: 150px;
+	left: 530px;
+	}
+	
+	</style>
+	</head>
+<body bgcolor="royalblue">
+<div class="div1"><img src="foty/kotek.jpg" /></div>
+<div class="div2"></div>
+<div class="div3"></div>
+<div class="div4"></div>
+<div class="div5"></div>
+<div class="div6"></div>
+<div class="div7"></div>
+<div class="div8"></div>
+<div class="div9"><img src="foty/kotek.jpg" /></div>
+<a href="index.html">
+<button> PRZEJŚCIE DO: <br /> MENU GŁÓWNE <i>(index.html)<i> </button>
+</a>
+</body>
+</html>
